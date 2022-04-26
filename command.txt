@@ -1,0 +1,9 @@
+$ python3 -m venv project  # virtual enviroment
+$ source project/bin/activate # activate the virtual enviroment
+$ deactivate # deactivate the enviroment
+$ pip list # list of available package in the virtual enviroment
+
+import matplotlib, torchvision, pandas
+
+
+pip freeze > requirement.txt ### to generate the package requirement file
